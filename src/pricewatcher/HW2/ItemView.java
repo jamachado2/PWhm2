@@ -63,7 +63,7 @@ public class ItemView extends JPanel{
 
         g.drawImage(getImage("view.png"),x,15, null);
         y += 20;
-        /* this didnt work, the text never jump to the next line...*/
+        /* this didnt work, the text never jump to the next line.....*/
         //g.drawString(item.toString(),x,y);
         g.drawString("Name:      " + item.getName(),x,y);
         y += 20;
